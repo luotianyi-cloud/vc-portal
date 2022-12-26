@@ -1,7 +1,7 @@
 {
     "name": "VC 资源导航",
-    "contact": "xxxxxx",
-    "cdn": "https://example.com/",
+    "contact": "example@example.com",
+    "cdn": "https://static.example.com/",
     "badges": [],
     "groups": [
         {

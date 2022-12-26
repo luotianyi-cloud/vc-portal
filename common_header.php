@@ -1,10 +1,11 @@
 <?php
 header("Content-Type: text/html; charset=utf-8");
-const DEBUG = true;
+const DEBUG = false;
 
 $config_file = file_get_contents(dirname(__FILE__)."/config.json");
 $config = json_decode($config_file, true);
-const CDN_ROOT = $config["cdn"];
+define('CDN_ROOT', $config["cdn"]);
+
 $style_link = DEBUG ? "whitestone-stream-design-2.0.css?t=".time() : CDN_ROOT."/whitestone-stream-design-2.0.css";
 
 $crypt_email = [];
