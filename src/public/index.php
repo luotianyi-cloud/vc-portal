@@ -8,7 +8,7 @@
     <meta name="renderer" content="webkit">
     <meta http-equiv="Cache-Control" content="no-siteapp">
     <meta name="google" content="notranslate">
-    <link rel="stylesheet" href="<?=$style_link?>">
+    <link rel="stylesheet" href="<?= CDN_ROOT . "/whitestone-stream-design-2.0.css" ?>">
     <title><?=$config["name"]?></title>
     <style>
         .programmable-radius-image {
@@ -23,7 +23,6 @@
                 <page-title><?=$config["name"]?></page-title>
             </h1>
             <aside>
-                <a class="button" href="https://www.bilibili.com/video/BV1GJ411x7h7/" target="_blank">登录</a>
                 <a class="button" href="about.php">关于</a>
             </aside>
         </header>
@@ -57,8 +56,9 @@
             <p>
                 &copy; 2022 <page-title><?=$config["name"]?></page-title> |
                 联系方式: <a href="#" rel="email">[Email Protected]</a><br>
-                <a href="">提交新网站</a> |
-                <a href="">联系推广合作</a>
+                <a href="about.php">提交新网站</a> |
+                <a href="about.php">联系推广合作</a> |
+                <a target="_blank" href="https://github.com/luotianyi-cloud/vc-portal">GitHub</a>
             </p>
             <p>
                 程序代码依据 <a target="_blank" rel="license" href="https://opensource.org/licenses/MIT">

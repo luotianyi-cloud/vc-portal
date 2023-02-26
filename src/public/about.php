@@ -8,7 +8,7 @@
     <meta name="renderer" content="webkit">
     <meta http-equiv="Cache-Control" content="no-siteapp">
     <meta name="google" content="notranslate">
-    <link rel="stylesheet" href="<?=$style_link?>">
+    <link rel="stylesheet" href="<?= CDN_ROOT . "/whitestone-stream-design-2.0.css" ?>">
     <title>关于 - <?=$config["name"]?></title>
     <style>
         article {
@@ -59,6 +59,6 @@
             <p>请注意，在此网站上推广作品我们不会收取任何费用，如果任何人以我们的名义向您索要钱财或物品，请不要相信、谨防诈骗。</p>
         </article>
     </main>
-    <?php load_protected_email($crypt_email); ?>
+    <?php load_protected_email($config["contact"]); ?>
 </body>
 </html>

@@ -1,7 +1,6 @@
 {
     "name": "VC 资源导航",
-    "contact": "example@example.com",
-    "cdn": "https://static.example.com/",
+    "contact": "lty@luotianyi.dev",
     "badges": [],
     "groups": [
         {
@@ -212,7 +211,7 @@
                 {
                     "name": "中V宝藏<br>歌曲挖掘站",
                     "circle": true,
-                    "icon": "https://lty-webstatic-intl-1251131545.cos.accelerate.myqcloud.com/vcmusic/logo.svg",
+                    "icon": "https://lty-webstatic-intl-1251131545.cos.accelerate.myqcloud.com/vcmusic.cn/logo.svg",
                     "url": "https://space.bilibili.com/526975910"
                 }
             ]
