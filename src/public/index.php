@@ -69,7 +69,7 @@
                 </a> 提供<br>
             </p>
         </footer>
-        <?php load_protected_email($crypt_email); ?>
+        <?php load_protected_email($config["contact"]); ?>
     </main>
 </body>
 </html>
