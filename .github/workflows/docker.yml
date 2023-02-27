@@ -45,3 +45,9 @@ jobs:
         with:
           push: true
           tags: ${{ env.USER }}/${{ env.IMAGE }}:${{ env.SHORT_SHA }}
+      
+      - name: Build & Push (Latest)
+        uses: docker/build-push-action@v4
+        with:
+          push: true
+          tags: ${{ env.USER }}/${{ env.IMAGE }}:latest
